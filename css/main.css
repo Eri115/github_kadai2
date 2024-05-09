@@ -100,8 +100,6 @@ margin: 0%;
   }
 div.section_title p {
     margin: 0;
-    position: absolute;
-    padding-left: 600px;
 }
 
 
@@ -153,9 +151,9 @@ div.section_title p {
   
 }
 .recommend_menubox h2, p {
- float: right;
-
+ /* float: right;  */
 }
+
 .menu_title h1{
   padding: 0;
   border: 0;
