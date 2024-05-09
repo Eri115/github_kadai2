@@ -139,19 +139,20 @@ div.section_title p {
 
 .recommend_menubox {
   display: flex;
+  justify-content: center;
 }
 .recommend_menubox li {
   margin-left:  50px;
   background-color: #fff;
   object-fit: contain;
-  font-size: 10px;
+  font-size: 15px;
   background-size: 49%;
 }
 .recommend_menubox img {
   width: 55%;
   height: 250px;
   float: left;
-  padding: 0%;
+
   
 }
 .recommend_menubox h2, p {
@@ -165,8 +166,6 @@ div.section_title p {
 .sub {
   margin: 0;
   width: 100%;
-
-
 }
 
 .sub ul {
@@ -176,7 +175,6 @@ div.section_title p {
   display: flex;
   font-size: 12px;
   justify-content: center;
-  flex-direction: row-reverse;
   background-color: moccasin;
 }
 .sub li {
@@ -185,15 +183,26 @@ div.section_title p {
   padding: 20px;
   margin: 0;
   background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.coffee_menu_sample {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .sub h2 {
   height: 0%;
   padding: 0%;
   float: right;
+  font-size: 1em;
 }
 .caffee_menu_image  {
   width: 20%;
   border-radius: 50%;
+  margin-top: 20px;
 }
 
 dt {
@@ -229,6 +238,4 @@ footer {
   color: white;
   text-align: center;
   height: 10px;
-  
-
 }
