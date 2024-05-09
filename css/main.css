@@ -25,6 +25,12 @@ p, ul {
   top: 0;
   width: 100%;
 }
+
+.section_inner_title {
+  position: relative;
+  top: 43%;
+  left: 10%;
+}
 .global_nav_item {
   color: #fff;
   text-decoration: none;
@@ -55,7 +61,6 @@ p, ul {
   font-weight: bold;
 }
 .key h1 {
-  padding:250px 10% 50px 10% ;
   font-size: 2.5rem;
   text-align: left;
 }
@@ -82,7 +87,6 @@ margin: 0%;
   width: 60%;
   margin-left: 20px;
   float: left;
-
 }
 .menu_title {
   display: inline-block;
